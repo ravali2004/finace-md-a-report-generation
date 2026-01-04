@@ -40,13 +40,13 @@ If you want to bulk import the data programmatically:
 
 1. Ensure you have set up your Supabase integration
 2. Add your Supabase service role key to your environment variables:
-   ```bash
+   \`\`\`bash
    SUPABASE_SERVICE_ROLE_KEY=your_service_role_key_here
-   ```
+   \`\`\`
 3. Run the import script:
-   ```bash
+   \`\`\`bash
    npx tsx scripts/003_import_sample_data.ts
-   ```
+   \`\`\`
 
 ## What You Can Do With This Data
 
